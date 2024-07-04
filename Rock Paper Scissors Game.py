@@ -23,15 +23,12 @@ def play_game(user_choice):
 def on_choice(user_choice):
     play_game(user_choice)
 
-# Initialize scores
 user_score = 0
 computer_score = 0
 
-# Create the main window
 root = tk.Tk()
 root.title("Rock-Paper-Scissors Game")
 
-# Create widgets
 label = tk.Label(root, text="Choose rock, paper, or scissors:")
 label.pack(pady=10)
 
@@ -50,5 +47,4 @@ result_label.pack(pady=20)
 score_label = tk.Label(root, text=f"Score - You: {user_score}  Computer: {computer_score}")
 score_label.pack(pady=10)
 
-# Run the main loop
 root.mainloop()
