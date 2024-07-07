@@ -74,3 +74,4 @@ class PasswordGenerator:
 
 generator = PasswordGenerator()
 generator.run()
+
